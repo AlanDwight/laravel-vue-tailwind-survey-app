@@ -48,7 +48,7 @@ class AppServiceProvider extends ServiceProvider
         URL::forceScheme('https');
     }
 
-    private function configureVite(): void
+    private function configureVite(): void  // when new laravel update come out update vite along side
     {
         Vite::usePrefetchStrategy('aggressive');
     }

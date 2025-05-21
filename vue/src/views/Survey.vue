@@ -1,8 +1,9 @@
 <script setup>
+import PageComponent from '../components/PageComponent.vue';
 </script>
 
 <template>
-  <h1>Survey Page</h1>
+  <PageComponent title="Survey Page" >This is survey page</PageComponent>
 </template>
 
 <style scoped></style>
